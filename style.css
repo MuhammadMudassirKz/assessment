@@ -5,7 +5,7 @@ body{
 
 .main-con{
     width: 100%;
-    height: 1000px;
+    height: 100%;
     background-color: #f3f5f9;
     display: flex;
     flex-direction: column;
@@ -16,8 +16,6 @@ body{
     width: 100%;
     height: 400px;
     display: flex;
-    /*background-color: #e74c3c;*/
-    /*flex-wrap: wrap;*/
     justify-content: center;
     margin-top: 20px;
 }
@@ -215,7 +213,6 @@ body{
 }
 
 .assessment-progress h3{
-    /*font-family: Arial, Helvetica, sans-serif;*/
     font-weight: 600;
 }
 
@@ -235,16 +232,13 @@ body{
 .assessment-detail{
     width: 100%;
     height: 90px;
-    /*background-color: black;*/
     display: flex;
     justify-content: space-evenly;
-    /*margin-top: 10px;*/
 }
 
 .assessment-detail-header{
     width: 100%;
     height: 90px;
-    /*background-color: #2ecc71;*/
     display: flex;
     align-items: center;
     justify-content: center;
@@ -268,7 +262,6 @@ body{
 }
 
 .btn {
-    /*border: none;*/
     padding: 8px 22px;
     font-size: 15px;
     font-weight: 400;
@@ -312,7 +305,6 @@ body{
 .assessment-detail-table-row{
     width: 100%;
     height: 100%;
-    /*background-color: #4d84fe;*/
     display: flex;
     justify-content: space-evenly;
 }
@@ -320,21 +312,15 @@ body{
 .assessment-detail-table{
     width: 1260px;
     height: 100%;
-    /*background-color: #e74c3c;*/
-    /*display: flex;*/
-    /*align-items: center;*/
 }
 
 table {
-    /*font-family: arial, sans-serif;*/
-    /*border-collapse: collapse;*/
     width: 100%;
     border-spacing: 0px 0.8rem;
 }
 
 td, th {
     border: 1px solid #dde3ea;
-    /*border-radius: 6px;*/
     text-align: left;
     padding: 25px;
 }
@@ -380,4 +366,106 @@ td {
     }
 }
 
+@media screen and (max-width: 992px) {
+    .overview-box {
+        width: 550px;
+        height: 175px;
+    }
+    .overview h3 {
+        font-size: 17px;
+    }
+    .overview-box-header {
+        padding-left: 50px;
+    }
+
+    .assessment-progress-box{
+        width: 275px;
+        height: 285px;
+    }
+    .assessment-progress h3 {
+        font-size: 17px;
+    }
+    .total-exams-ellipse {
+        width: 120px;
+        height: 120px;
+    }
+    .total-exams-ellipse h1 {
+        font-size: 70px;
+    }
+    .total-exams-img{
+        height: 35px;
+        width: 24px;
+    }
+    .total-exams-text h4 {
+        font-weight: 600;
+        margin-top: 14px;
+        font-size: 14px;
+    }
+    .fully-marked-ellipse {
+        width: 120px;
+        height: 120px;
+    }
+    .fully-marked-ellipse h1 {
+        font-size: 70px;
+    }
+    .fully-marked-img{
+        height: 35px;
+        width: 24px;
+    }
+    .fully-marked-text h4 {
+        font-weight: 600;
+        margin-top: 14px;
+        font-size: 13px;
+    }
+    .scanned-ellipse {
+        width: 65px;
+        height: 65px;
+    }
+    .scanned-ellipse h1 {
+        font-size: 40px;
+    }
+    .scanned p {
+        font-size: 13px;
+    }
+    .not-scanned-ellipse {
+        width: 65px;
+        height: 65px;
+    }
+    .not-scanned-ellipse h1 {
+        font-size: 40px;
+    }
+    .not-scanned p {
+        font-size: 13px;
+    }
+    .assessment-detail{
+        margin-top: -45px;
+    }
+    .assessment-detail-heading {
+        width: 290px;
+    }
+    .assessment-detail-heading h3 {
+        padding-left: 5px;
+    }
+    .assessment-detail-buttons {
+        width: 580px;
+    }
+    .btn {
+        padding: 5px 8px;
+        font-size: 12px;
+        font-weight: 400;
+    }
+    #btn1 {
+        padding: 5px 8px;
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .assessment-detail-table {
+        width: 870px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+}
 
